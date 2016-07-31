@@ -73,8 +73,8 @@ int main()
         cerr<<"AAAAAAAAAAAAAAAAAAA"<<endl;
         cout<<"post_data: "<<post_data<<"<br/>"<<endl;
 		sscanf(post_data, "name=%s,&age=%s, &school=%s, &hobby=%s",name, age, school, hobby);
-        std:;string insert_data=
-		//std::string insert_data = "'Smart', 12, 'wxyz', 'read'";
+       // std::string insert_data=
+		std::string insert_data = "'Smart', 12, 'wxyz', 'read'";
     	const std::string _host = _remote_ip;
     	const std::string _user = _remote_user;
     	const std::string _passwd = _remote_passwd;

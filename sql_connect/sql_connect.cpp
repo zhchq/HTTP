@@ -131,8 +131,8 @@ int main()
 	std::string _sql_data[1024][5];
 	std::string header[5];
 	int curr_row = -1;
-	const std::string _host = "192.168.2.130";
-	const std::string _user = "dandan";
+	const std::string _host = "192.168.188.131";
+	const std::string _user = "centos";
 	const std::string _passwd = "123456";
 	const std::string _db   = "remote_db";
 	const std::string data  = "'hill', 24, 'xgd', 'sleep'";
